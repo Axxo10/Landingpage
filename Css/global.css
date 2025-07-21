@@ -1,0 +1,15 @@
+/* Aqui vamos a deifinir variables que se reutilicen en todo el sitio */
+
+:root{
+  --primary-color: #585341;
+  --baselight: #BEB9A7;
+  --light: #E5E5E6;
+
+  --font-primary: "funnel display";
+  --font-secondary: "roboto";
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--primary-color);
+}
