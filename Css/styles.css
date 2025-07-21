@@ -1,4 +1,27 @@
-body {
-    font-family: "funnel display";
-}
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
 
+    background-color: rgb(255, 255, 255);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-normal);
+
+}
+.navbar-menu{
+    display: flex;
+    gap: 24px;
+    padding: var(--space-medium);
+}
+.navbar-menu a {
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+}
+.navbar-menu a:hover{
+    color: var(--primary);
+}
