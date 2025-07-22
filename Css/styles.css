@@ -25,3 +25,22 @@
 .navbar-menu a:hover{
     color: var(--primary);
 }
+
+/* Hero */
+
+.hero {
+    height: 100vh;
+    min-height: 700px;
+    background-image: url('../assets/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center     ;
+}
+
+.hero-content {
+    width: 50%;
+    background-color: aqua;
+}
